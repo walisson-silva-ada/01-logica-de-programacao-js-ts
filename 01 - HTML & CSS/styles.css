@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1.titulo-principal {
+  color: red;
+  font-weight: bold;
+  font-size: 4rem; /* 1rem = 16px */
+}
+
+p {
+  background-color: aqua;
+  padding: 20px;
+  margin: 10px;
+}
+
+#nome_completo {
+  height: 100px;
+}
