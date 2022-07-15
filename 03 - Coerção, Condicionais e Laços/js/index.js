@@ -178,3 +178,73 @@ if (idade < 16) {
   - Exemplo de valores não aceitos: `5 6 7 8`
   - Exemplo de valores aceitos: `2 3 2 6`
 */
+
+// const A = prompt("Informe o valor de A:");
+// const B = prompt("Informe o valor de B:");
+// const C = prompt("Informe o valor de C:");
+// const D = prompt("Informe o valor de D:");
+
+// const isBGreaterThanC = B > C;
+// const isAEven = A % 2 === 0;
+
+// if (isBGreaterThanC && D > A && C + D > A + B && C > 0 && D > 0 && isAEven) {
+//   console.log("Valores aceitos");
+// } else {
+//   console.log("Valores não aceitos");
+// }
+
+console.clear();
+
+// * 2. switch/case
+
+const language = "SASS"; // (JavaScript, CSS, HTML, Python...)
+
+switch (language) {
+  case "JavaScript":
+    console.log("Boa sorte!");
+    console.log("Adicionando funcionalidade a uma página web.");
+    break;
+  case "HTML":
+    console.log("Conteúdo de uma página Web");
+    break;
+  case "CSS": // CSS ou SASS ou SCSS
+  case "SASS":
+  case "SCSS":
+    console.log("Estilização de uma página Web");
+    break;
+  default:
+    console.log("Não reconheço essa linguagem.");
+}
+
+// if (language === "JavaScript") {
+//   console.log("Boa sorte!");
+// } else if (language === "HTML") {
+//   console.log("Conteúdo de uma página Web");
+// } else if (language === "CSS") {
+//   console.log("Estilização de uma página Web");
+// }
+
+// * 3. Operador Ternário
+
+if (idade >= 18) {
+  // ...
+} else {
+  // ...
+}
+
+idade = 20;
+
+idade >= 18 ? console.log("Maior de idade") : console.log("Menor de idade");
+
+const numero = 10;
+
+numero > 0
+  ? console.log("Número positivo")
+  : numero == 0
+  ? console.log("Neutro")
+  : console.log("Número negativo");
+
+const mensagem =
+  idade >= 18 ? "Você é maior de idade" : "Você é menor de idade";
+
+console.log(mensagem);
