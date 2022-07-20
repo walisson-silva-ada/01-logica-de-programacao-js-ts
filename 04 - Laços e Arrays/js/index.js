@@ -279,3 +279,40 @@ console.clear();
 for (let variavel of nomes) {
   console.log(variavel);
 }
+
+// MATRIZES
+
+console.clear();
+
+const matriz = [
+  [1, 2, 3, 4, 5],
+  [6, 7, 8, 9, 10],
+  [11, 12, 13, 14, 15],
+];
+
+console.log(matriz);
+
+matriz.push([16, 17, 18, 19, 20]);
+
+console.log(matriz);
+
+console.log("Primeiro elemento", matriz[0]);
+console.log("Primeiro valor da matriz:", matriz[0][0]);
+
+console.clear();
+
+for (let linha of matriz) {
+  console.log("Linha");
+  for (let elemento of linha) {
+    console.log(elemento);
+  }
+}
+
+console.clear();
+
+for (let i = 0; i < matriz.length; i++) {
+  console.log(`Linha ${i + 1}`);
+  for (let j = 0; j < matriz[i].length; j++) {
+    console.log(matriz[i][j]);
+  }
+}
